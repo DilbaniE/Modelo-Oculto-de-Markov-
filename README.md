@@ -141,9 +141,9 @@ La mejora del sistema de alertas complementa el modelo al transformar las probab
 
 ## 10. Autores
 
-- [David Castro]
-- [Santiago Henao]
-- [Dilbani Enriquez]
+- David Castro
+- Santiago Henao
+- Dilbani Enriquez
 
 ## 11. Información académica
 
