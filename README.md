@@ -96,32 +96,7 @@ def generar_alerta(probabilidades):
 
 La función permite convertir los resultados probabilísticos del modelo en recomendaciones más fáciles de interpretar y utilizar como apoyo a la toma de decisiones.
 
-## 6. Estructura del repositorio
-
-La organización sugerida del proyecto es:
-
-```text
-monitoreo-industrial-hmm/
-│
-├── notebooks/
-│   └── modelo_hmm.ipynb
-│
-├── resultados/
-│   ├── graficas/
-│   └── tablas/
-│
-├── documentos/
-│   └── informe_actividad.pdf
-│
-├── evidencias/
-│   └── capturas_resultados/
-│
-└── README.md
-```
-
-Los nombres y carpetas deben ajustarse a los archivos que realmente se incluyan en el repositorio.
-
-## 7. Requisitos para ejecutar el proyecto
+## 6. Requisitos para ejecutar el proyecto
 
 Se requiere tener instalado Python y las siguientes bibliotecas:
 
@@ -131,7 +106,7 @@ pip install numpy pandas matplotlib scipy scikit-learn
 
 También se puede ejecutar el notebook desde Google Colab sin necesidad de instalar Python localmente.
 
-## 8. Instrucciones de ejecución
+## 7. Instrucciones de ejecución
 
 1. Descargar o clonar el repositorio.
 2. Abrir el notebook principal ubicado en la carpeta `notebooks`.
@@ -146,7 +121,7 @@ Para clonar el repositorio:
 git clone URL_DEL_REPOSITORIO
 ```
 
-## 9. Resultados esperados
+## 8. Resultados esperados
 
 Con el desarrollo del proyecto se busca:
 
@@ -156,7 +131,7 @@ Con el desarrollo del proyecto se busca:
 - Evaluar el comportamiento del modelo mediante medidas estadísticas.
 - Generar recomendaciones de mantenimiento según la probabilidad estimada del estado Crítico.
 
-## 10. Conclusiones
+## 9. Conclusiones
 
 Los Modelos Ocultos de Markov permiten representar situaciones en las que el estado real de un sistema no es observable directamente, pero se cuenta con observaciones que ayudan a estimarlo.
 
@@ -164,13 +139,13 @@ Mediante las simulaciones y los algoritmos implementados es posible analizar dif
 
 La mejora del sistema de alertas complementa el modelo al transformar las probabilidades obtenidas mediante Forward en recomendaciones de mantenimiento, facilitando la interpretación de los resultados y el apoyo a la toma de decisiones.
 
-## 11. Autores
+## 10. Autores
 
 - [David Castro]
 - [Santiago Henao]
 - [Dilbani Enriquez]
 
-## 12. Información académica
+## 11. Información académica
 
 - **Institución:** IU Digital de Antioquia.
 - **Programa:** Ingeniería en Desarrollo de Software y Datos.
